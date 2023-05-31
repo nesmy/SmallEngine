@@ -199,6 +199,8 @@ Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/libs
 Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/libglad.a
 Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/libglfw3.a
 Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/libspdlog.a
+Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/lib/libassimp.a
+Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/libzlibstatic.a
 Editor.exe: CMakeFiles/Editor.dir/linkLibs.rsp
 Editor.exe: CMakeFiles/Editor.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Editor.exe"

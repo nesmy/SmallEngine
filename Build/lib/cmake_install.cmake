@@ -43,6 +43,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/cmake_install.cmake")
   include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/cmake_install.cmake")
   include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/imgui/cmake_install.cmake")
+  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glm/cmake_install.cmake")
+  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/cmake_install.cmake")
 
 endif()
 

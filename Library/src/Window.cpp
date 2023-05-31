@@ -6,31 +6,50 @@
 
 namespace small {
 
-    
-// Vertex shader source code
-const char* vertexShaderSource = R"(
-    #version 330 core
-    layout (location = 0) in vec3 aPos;
-
-    void main()
-    {
-        gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
-    }
-)";
-
-// Fragment shader source code
-const char* fragmentShaderSource = R"(
-    #version 330 core
-    out vec4 FragColor;
-
-    void main()
-    {
-        FragColor = vec4(1.0, 0.5, 0.2, 1.0);
-    }
-)";
     void framebufferSizeCallback(GLFWwindow* window, int width, int height)
     {
         glViewport(0, 0, width, height);
+    }
+
+    void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
+    {
+        float xpos = static_cast<float>(xposIn);
+        float ypos = static_cast<float>(yposIn);
+
+        if (Window::firstMouse)
+        {
+            lastX = xpos;
+            lastY = ypos;
+            firstMouse = false;
+        }
+
+        float xoffset = xpos - lastX;
+        float yoffset = lastY - ypos; // reversed since y-coordinates go from bottom to top
+
+        lastX = xpos;
+        lastY = ypos;
+
+        camera.ProcessMouseMovement(xoffset, yoffset);
+    }
+
+    void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
+    {
+        camera.ProcessMouseScroll(static_cast<float>(yoffset));
+    }
+
+    void processInput(GLFWwindow *window)
+    {
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
+
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+        camera.ProcessKeyboard(FORWARD, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+        camera.ProcessKeyboard(BACKWARD, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+        camera.ProcessKeyboard(LEFT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+        camera.ProcessKeyboard(RIGHT, deltaTime);
     }
 
     Window::Window(int Width,int Height, const char* Name)
@@ -38,6 +57,8 @@ const char* fragmentShaderSource = R"(
         _Width = Width;
         _Height = Height;
         _Name = Name;
+        camera = Camera(glm::vec3(0.0f, 0.0f, 3.0f));
+
     }
 
     Window::~Window()
@@ -58,6 +79,10 @@ const char* fragmentShaderSource = R"(
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
+        #ifdef __APPLE__
+        glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+        #endif
+
         // Create a GLFW window
         _Window = glfwCreateWindow(_Width, _Height, _Name, nullptr, nullptr);
 
@@ -70,6 +95,9 @@ const char* fragmentShaderSource = R"(
 
         // Set the current context to the created window
         glfwMakeContextCurrent(_Window);
+        glfwSetFramebufferSizeCallback(_Window, framebufferSizeCallback);
+        glfwSetCursorPosCallback(_Window, mouse_callback);
+        glfwSetScrollCallback(_Window, scroll_callback);
         
         //glfwSwapInterval(1);
 
@@ -80,8 +108,8 @@ const char* fragmentShaderSource = R"(
             glfwTerminate();
             return;
         }
-        // Set the framebuffer size callback function
-        glfwSetFramebufferSizeCallback(_Window, framebufferSizeCallback);
+        // tell stb_image.h to flip loaded texture's on the y-axis (before loading model).
+        stbi_set_flip_vertically_on_load(true);
 
 
         // Initialize ImGui
@@ -92,28 +120,14 @@ const char* fragmentShaderSource = R"(
         ImGui_ImplGlfw_InitForOpenGL(_Window, true);
         ImGui_ImplOpenGL3_Init("#version 330");
 
-        // Create and compile the shader program
-        shaderProgram = shader.createShaderProgram(vertexShaderSource ,fragmentShaderSource);
-        // Vertex data
-    float vertices[] = {
-        -0.5f, -0.5f, 0.0f,
-        0.5f, -0.5f, 0.0f,
-        0.0f, 0.5f, 0.0f
-    };
+        // build and compile shaders
+        // -------------------------
+        Shader ourShader("vertex.vs", "fragment.fs");
 
-    // Create a vertex buffer object (VBO)
+        // load models
+        // -----------
+        Model ourModel("car.obj");
     
-    glGenBuffers(1, &VBO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-    // Vertex array object (VAO)
-    
-    glGenVertexArrays(1, &VAO);
-    glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
 
     }
 
@@ -128,13 +142,35 @@ const char* fragmentShaderSource = R"(
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        // Rendering
-        // Use the shader program
-        glUseProgram(shaderProgram);
+        // per-frame time logic
+        // --------------------
+        float currentFrame = static_cast<float>(glfwGetTime());
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
 
-        // Draw the triangle
-        glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        // input
+        // -----
+        processInput(_Window);
+        // don't forget to enable shader before setting uniforms
+        ourShader.use();
+
+        // Rendering
+        glClearColor(0.05f, 0.05f, 0.05f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+        // view/projection transformations
+        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)_Width / (float)_Height, 0.1f, 100.0f);
+        glm::mat4 view = camera.GetViewMatrix();
+        ourShader.setMat4("projection", projection);
+        ourShader.setMat4("view", view);
+
+        // render the loaded model
+        glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f)); // translate it down so it's at the center of the scene
+        model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));	// it's a bit too big for our scene, so scale it down
+        ourShader.setMat4("model", model);
+        ourModel.Draw(ourShader);
+    
         // render your GUI
         ImGui::Begin("Demo window");
         ImGui::Button("Hello!");
@@ -147,6 +183,7 @@ const char* fragmentShaderSource = R"(
         int display_w, display_h;
         glfwGetFramebufferSize(_Window, &display_w, &display_h);
         glViewport(0, 0, display_w, display_h);
+    
     }
 
     void Window::destroy()

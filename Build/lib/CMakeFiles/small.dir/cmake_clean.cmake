@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/small.dir/src/Shader.cpp.obj"
-  "CMakeFiles/small.dir/src/Shader.cpp.obj.d"
   "CMakeFiles/small.dir/src/Window.cpp.obj"
   "CMakeFiles/small.dir/src/Window.cpp.obj.d"
   "CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.obj"

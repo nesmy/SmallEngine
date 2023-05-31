@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src/Shader.cpp" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Shader.cpp.obj" "gcc" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Shader.cpp.obj.d"
   "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src/Window.cpp" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Window.cpp.obj" "gcc" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Window.cpp.obj.d"
   "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_glfw.cpp" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.obj" "gcc" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.obj.d"
   "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_opengl3.cpp" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.obj" "gcc" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.obj.d"

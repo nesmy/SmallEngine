@@ -1,3 +1,5 @@
+#include <vector>
+#include "Entity.h"
 namespace small {
     class Scene {
 public:
@@ -5,7 +7,12 @@ public:
     Scene();
 
     // Destructor
-    ~Scene();
+    ~Scene(){
+        // Cleanup all entities
+        for (auto entity : entities) {
+            delete entity;
+        }
+    }
 
     // Scene initialization method
     void Initialize();
@@ -15,6 +22,15 @@ public:
 
     // Scene rendering method
     void Render();
+
+    // Create and add a new entity to the scene
+    Entity* CreateEntity() {
+        Entity* entity = new Entity();
+        entities.push_back(entity);
+        return entity;
+    }
+private:
+    std::vector<Entity*> entities;  // Container to store entities
 };
 
 }

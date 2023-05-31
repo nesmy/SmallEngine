@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"assimp-dev\" \"libassimp5.2.5-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -174,30 +174,6 @@ small: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFile
 small/fast:
 	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build
 .PHONY : small/fast
-
-src/Shader.obj: src/Shader.cpp.obj
-.PHONY : src/Shader.obj
-
-# target to build an object file
-src/Shader.cpp.obj:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Shader.cpp.obj
-.PHONY : src/Shader.cpp.obj
-
-src/Shader.i: src/Shader.cpp.i
-.PHONY : src/Shader.i
-
-# target to preprocess a source file
-src/Shader.cpp.i:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Shader.cpp.i
-.PHONY : src/Shader.cpp.i
-
-src/Shader.s: src/Shader.cpp.s
-.PHONY : src/Shader.s
-
-# target to generate assembly for a file
-src/Shader.cpp.s:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Shader.cpp.s
-.PHONY : src/Shader.cpp.s
 
 src/Window.obj: src/Window.cpp.obj
 .PHONY : src/Window.obj
@@ -428,9 +404,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... small"
-	@echo "... src/Shader.obj"
-	@echo "... src/Shader.i"
-	@echo "... src/Shader.s"
 	@echo "... src/Window.obj"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"

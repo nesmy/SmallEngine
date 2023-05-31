@@ -13,6 +13,9 @@ add_subdirectory(vendor/glad)
 add_subdirectory(vendor/glfw)
 add_subdirectory(vendor/spdlog)
 add_subdirectory(vendor/imgui)
+add_subdirectory(vendor/glm)
+add_subdirectory(vendor/assimp)
+
 
 target_include_directories(${PROJECT_NAME}
     PUBLIC include
@@ -22,7 +25,9 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC vendor/spdlog/include
     PUBLIC vendor/spdlog/src
     PUBLIC vendor/imgui
-    PUBLIC vendor/imgui/backends)
+    PUBLIC vendor/imgui/backends
+    PUBLIC vendor/glm/glm
+    PUBLIC vendor/assimp/include)
 
 target_link_directories(${PROJECT_NAME}
     PUBLIC vendor/glad/src
@@ -38,4 +43,6 @@ target_link_libraries(${PROJECT_NAME}
     glfw
     spdlog
     imgui-stdlib
-    imgui)
+    imgui
+    glm
+    assimp)
