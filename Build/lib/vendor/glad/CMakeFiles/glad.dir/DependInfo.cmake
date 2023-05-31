@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glad/src/glad.c" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/src/glad.c.obj" "gcc" "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/src/glad.c.obj.d"
+  "/Users/nesmy/Playground/SmallEngine/Library/vendor/glad/src/glad.c" "/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/src/glad.c.o" "gcc" "/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/src/glad.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

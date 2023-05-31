@@ -13,6 +13,7 @@ namespace small {
 
     void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
     {
+        /*
         float xpos = static_cast<float>(xposIn);
         float ypos = static_cast<float>(yposIn);
 
@@ -30,15 +31,17 @@ namespace small {
         lastY = ypos;
 
         camera.ProcessMouseMovement(xoffset, yoffset);
+        */
     }
 
     void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
     {
-        camera.ProcessMouseScroll(static_cast<float>(yoffset));
+        //camera.ProcessMouseScroll(static_cast<float>(yoffset));
     }
 
     void processInput(GLFWwindow *window)
     {
+        /*
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 
@@ -48,8 +51,9 @@ namespace small {
         camera.ProcessKeyboard(BACKWARD, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
         camera.ProcessKeyboard(LEFT, deltaTime);
-    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS):
         camera.ProcessKeyboard(RIGHT, deltaTime);
+        */
     }
 
     Window::Window(int Width,int Height, const char* Name)
@@ -58,6 +62,7 @@ namespace small {
         _Height = Height;
         _Name = Name;
         camera = Camera(glm::vec3(0.0f, 0.0f, 3.0f));
+        Shader ourShader;
 
     }
 

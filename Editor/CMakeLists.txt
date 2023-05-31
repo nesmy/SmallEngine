@@ -4,14 +4,14 @@ project(Editor)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 
-add_subdirectory(C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library ../lib)
+add_subdirectory(../Library ../lib)
 
 target_include_directories(${PROJECT_NAME}
-    PUBLIC C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include
+    PUBLIC ../Library/include
     )
 
 target_link_directories(${PROJECT_NAME}
-    PUBLIC C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src
+    PUBLIC ../Library/src
     )
 
 target_link_libraries(${PROJECT_NAME}

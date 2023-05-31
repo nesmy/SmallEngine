@@ -1,0 +1,2 @@
+cd ../Build/edit
+make

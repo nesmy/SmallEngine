@@ -18,19 +18,18 @@ namespace small {
         void destroy();
         void render();
         GLFWwindow* _Window;
-        static const bool firstMouse = true;
-        static const 
+        bool firstMouse = true;
         int _Width, _Height;
         const char* _Name;
         Camera camera;
-        static const float lastX = _Width / 2.0f;
+        float lastX = _Width / 2.0f;
         float lastY = _Height / 2.0f;
         float deltaTime = 0.0f;
         float lastFrame = 0.0f;
 
     private:
 
-        Shader ourShader;
+        //Shader ourShader;
         Model ourModel;
 
     };
