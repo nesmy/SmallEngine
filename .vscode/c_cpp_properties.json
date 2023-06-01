@@ -7,11 +7,10 @@
                 "${workspaceFolder}/Library/include",
                 "${workspaceFolder}/Library/vendor/spdlog/include",
                 "${workspaceFolder}/Library/vendor/imgui/backends",
+                "${workspaceFolder}/Library/vendor/imgui",
                 "${workspaceFolder}/Library/vendor/glad/include",
                 "${workspaceFolder}/Library/vendor/glfw/include",
-                "${workspaceFolder}/Library/vendor/imgui",
                 "${workspaceFolder}/Library/vendor/glm",
-                "${workspaceFolder}/Library/include/Render",
                 "${workspaceFolder}/Library/vendor/assimp/include",
                 "${workspaceFolder}/Build/lib/vendor/assimp/include"
             ],

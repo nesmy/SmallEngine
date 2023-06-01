@@ -62,7 +62,7 @@ namespace small {
         _Height = Height;
         _Name = Name;
         camera = Camera(glm::vec3(0.0f, 0.0f, 3.0f));
-        Shader ourShader;
+       // Shader ourShader;
 
     }
 
@@ -114,7 +114,7 @@ namespace small {
             return;
         }
         // tell stb_image.h to flip loaded texture's on the y-axis (before loading model).
-        stbi_set_flip_vertically_on_load(true);
+        //stbi_set_flip_vertically_on_load(true);
 
 
         // Initialize ImGui
@@ -125,13 +125,7 @@ namespace small {
         ImGui_ImplGlfw_InitForOpenGL(_Window, true);
         ImGui_ImplOpenGL3_Init("#version 330");
 
-        // build and compile shaders
-        // -------------------------
-        Shader ourShader("vertex.vs", "fragment.fs");
-
-        // load models
-        // -----------
-        Model ourModel("car.obj");
+       
     
 
     }

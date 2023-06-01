@@ -1,8 +1,8 @@
-# Install script for directory: /Users/nesmy/Playground/SmallEngine/Editor
+# Install script for directory: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Editor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Editor")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/nesmy/Playground/SmallEngine/Build/lib/cmake_install.cmake")
+  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nesmy/Playground/SmallEngine/Build/edit/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
