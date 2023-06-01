@@ -3,6 +3,7 @@
 #include "Render/Shader.h"
 #include "Camera.h"
 #include "Render/Model.h"
+//#include "stb_image.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -29,8 +30,13 @@ namespace small {
 
     private:
 
-        //Shader ourShader;
-        Model ourModel;
+         // build and compile shaders
+        // -------------------------
+        Shader ourShader = Shader("vertex.vs", "fragment.fs");
+
+        // load models
+        // -----------
+        Model ourModel = Model("car.obj");
 
     };
 }
