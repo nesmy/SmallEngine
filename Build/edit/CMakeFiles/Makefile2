@@ -302,12 +302,12 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/cl
 # Target rules for target CMakeFiles/Editor.dir
 
 # All Build rule for target.
-CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/all
+CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
-CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=1 "Built target Editor"
@@ -336,8 +336,8 @@ CMakeFiles/Editor.dir/clean:
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/all
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/all
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir/all
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=63,64,65 "Built target small"
@@ -545,8 +545,8 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/co
 # Target rules for target C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir
 
 # All Build rule for target.
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/all
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir/all
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/all
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target unit"

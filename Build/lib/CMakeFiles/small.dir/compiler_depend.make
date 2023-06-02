@@ -17,7 +17,7 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
   C:/msys64/mingw64/include/stddef.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glfw/include/GLFW/glfw3.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Shader.h \
+  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Camera.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/glm.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/_fixes.hpp \
   C:/msys64/mingw64/include/c++/12.2.0/cmath \
@@ -180,119 +180,6 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_half.inl \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/integer.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/func_integer.inl \
-  C:/msys64/mingw64/include/c++/12.2.0/string \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
-  C:/msys64/mingw64/include/c++/12.2.0/cwchar \
-  C:/msys64/mingw64/include/wchar.h \
-  C:/msys64/mingw64/include/corecrt_stdio_config.h \
-  C:/msys64/mingw64/include/_mingw_off_t.h \
-  C:/msys64/mingw64/include/_mingw_stat64.h \
-  C:/msys64/mingw64/include/swprintf.inl \
-  C:/msys64/mingw64/include/sec_api/wchar_s.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
-  C:/msys64/mingw64/include/c++/12.2.0/new \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/move.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/msys64/mingw64/include/c++/12.2.0/clocale \
-  C:/msys64/mingw64/include/locale.h \
-  C:/msys64/mingw64/include/stdio.h \
-  C:/msys64/mingw64/include/sec_api/stdio_s.h \
-  C:/msys64/mingw64/include/c++/12.2.0/iosfwd \
-  C:/msys64/mingw64/include/c++/12.2.0/cctype \
-  C:/msys64/mingw64/include/ctype.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
-  C:/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
-  C:/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
-  C:/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
-  C:/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
-  C:/msys64/mingw64/include/c++/12.2.0/initializer_list \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
-  C:/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
-  C:/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h \
-  C:/msys64/mingw64/include/c++/12.2.0/cstdio \
-  C:/msys64/mingw64/include/c++/12.2.0/cerrno \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/fstream \
-  C:/msys64/mingw64/include/c++/12.2.0/istream \
-  C:/msys64/mingw64/include/c++/12.2.0/ios \
-  C:/msys64/mingw64/include/c++/12.2.0/exception \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/exception_ptr.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  C:/msys64/mingw64/include/c++/12.2.0/typeinfo \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/nested_exception.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/ios_base.h \
-  C:/msys64/mingw64/include/c++/12.2.0/ext/atomicity.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/msys64/mingw64/include/pthread.h \
-  C:/msys64/mingw64/include/sys/types.h \
-  C:/msys64/mingw64/include/process.h \
-  C:/msys64/mingw64/include/corecrt_startup.h \
-  C:/msys64/mingw64/include/signal.h \
-  C:/msys64/mingw64/include/pthread_signal.h \
-  C:/msys64/mingw64/include/time.h \
-  C:/msys64/mingw64/include/sys/timeb.h \
-  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/mingw64/include/_timeval.h \
-  C:/msys64/mingw64/include/pthread_time.h \
-  C:/msys64/mingw64/include/pthread_compat.h \
-  C:/msys64/mingw64/include/pthread_unistd.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/system_error \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/msys64/mingw64/include/c++/12.2.0/stdexcept \
-  C:/msys64/mingw64/include/c++/12.2.0/streambuf \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/streambuf.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
-  C:/msys64/mingw64/include/c++/12.2.0/cwctype \
-  C:/msys64/mingw64/include/wctype.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/ostream \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
-  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/sstream \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
-  C:/msys64/mingw64/include/c++/12.2.0/iostream \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Camera.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/matrix_transform.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_projection.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/constants.hpp \
@@ -306,69 +193,42 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_transform.inl \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/matrix_transform.inl \
   C:/msys64/mingw64/include/c++/12.2.0/vector \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/msys64/mingw64/include/c++/12.2.0/new \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+  C:/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+  C:/msys64/mingw64/include/c++/12.2.0/initializer_list \
   C:/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Model.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/stb_image.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/Importer.hpp \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/types.h \
-  C:/msys64/mingw64/include/string.h \
-  C:/msys64/mingw64/include/sec_api/string_s.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/defs.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/include/assimp/config.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector2.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector3.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/color4.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix3x3.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix4x4.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/quaternion.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/checked.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/core.h \
-  C:/msys64/mingw64/include/c++/12.2.0/iterator \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/cpp11.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/checked.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/unchecked.h \
-  C:/msys64/mingw64/include/c++/12.2.0/cstring \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector2.inl \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector3.inl \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/color4.inl \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix3x3.inl \
-  C:/msys64/mingw64/include/c++/12.2.0/algorithm \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix4x4.inl \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/MathFunctions.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/quaternion.inl \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/scene.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/texture.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/Compiler/pushpack1.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/Compiler/poppack1.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/mesh.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/aabb.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/light.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/camera.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/material.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/material.inl \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/anim.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/metadata.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/postprocess.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Mesh.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Shader.h \
-  C:/msys64/mingw64/include/c++/12.2.0/map \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
-  C:/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
-  C:/msys64/mingw64/include/c++/12.2.0/tuple \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
-  C:/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/type_ptr.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/quaternion.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_relational.hpp \
@@ -405,7 +265,88 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_int1_sized.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint1.hpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint1_sized.hpp \
+  C:/msys64/mingw64/include/c++/12.2.0/cstring \
+  C:/msys64/mingw64/include/string.h \
+  C:/msys64/mingw64/include/sec_api/string_s.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/type_ptr.inl \
+  C:/msys64/mingw64/include/c++/12.2.0/iostream \
+  C:/msys64/mingw64/include/c++/12.2.0/ostream \
+  C:/msys64/mingw64/include/c++/12.2.0/ios \
+  C:/msys64/mingw64/include/c++/12.2.0/iosfwd \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
+  C:/msys64/mingw64/include/c++/12.2.0/cwchar \
+  C:/msys64/mingw64/include/wchar.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/_mingw_stat64.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/msys64/mingw64/include/c++/12.2.0/exception \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/exception_ptr.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h \
+  C:/msys64/mingw64/include/c++/12.2.0/typeinfo \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/nested_exception.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/msys64/mingw64/include/c++/12.2.0/clocale \
+  C:/msys64/mingw64/include/locale.h \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/c++/12.2.0/cctype \
+  C:/msys64/mingw64/include/ctype.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/ios_base.h \
+  C:/msys64/mingw64/include/c++/12.2.0/ext/atomicity.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/mingw64/include/pthread.h \
+  C:/msys64/mingw64/include/sys/types.h \
+  C:/msys64/mingw64/include/process.h \
+  C:/msys64/mingw64/include/corecrt_startup.h \
+  C:/msys64/mingw64/include/signal.h \
+  C:/msys64/mingw64/include/pthread_signal.h \
+  C:/msys64/mingw64/include/time.h \
+  C:/msys64/mingw64/include/sys/timeb.h \
+  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/mingw64/include/_timeval.h \
+  C:/msys64/mingw64/include/pthread_time.h \
+  C:/msys64/mingw64/include/pthread_compat.h \
+  C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.h \
+  C:/msys64/mingw64/include/c++/12.2.0/string \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
+  C:/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h \
+  C:/msys64/mingw64/include/c++/12.2.0/cstdio \
+  C:/msys64/mingw64/include/c++/12.2.0/cerrno \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.tcc \
+  C:/msys64/mingw64/include/c++/12.2.0/system_error \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/msys64/mingw64/include/c++/12.2.0/stdexcept \
+  C:/msys64/mingw64/include/c++/12.2.0/streambuf \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/streambuf.tcc \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
+  C:/msys64/mingw64/include/c++/12.2.0/cwctype \
+  C:/msys64/mingw64/include/wctype.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
+  C:/msys64/mingw64/include/c++/12.2.0/istream \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.h \
+  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imconfig.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  C:/msys64/mingw64/include/stdarg.h \
+  C:/msys64/mingw64/include/_mingw_stdarg.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Log.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/spdlog.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/common.h \
@@ -422,13 +363,17 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/msys64/mingw64/include/c++/12.2.0/ctime \
   C:/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
   C:/msys64/mingw64/include/c++/12.2.0/memory \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/align.h \
   C:/msys64/mingw64/include/c++/12.2.0/bit \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
+  C:/msys64/mingw64/include/c++/12.2.0/tuple \
   C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
+  C:/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
   C:/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
   C:/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
@@ -436,6 +381,8 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/msys64/mingw64/include/c++/12.2.0/bits/std_function.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/fmt/fmt.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
+  C:/msys64/mingw64/include/c++/12.2.0/iterator \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
   C:/msys64/mingw64/include/c++/12.2.0/experimental/string_view \
   C:/msys64/mingw64/include/c++/12.2.0/bits/ranges_base.h \
   C:/msys64/mingw64/include/c++/12.2.0/experimental/bits/lfts_config.h \
@@ -456,6 +403,7 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h \
   C:/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/logger.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/log_msg.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/backtracer.h \
@@ -463,13 +411,36 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/circular_q.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/version.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.h \
-  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imconfig.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
-  C:/msys64/mingw64/include/stdarg.h \
-  C:/msys64/mingw64/include/_mingw_stdarg.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_glfw.h \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_opengl3.h
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/stb.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src/stb.cpp \
+  C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/stb_image.h \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/corecrt.h \
+  C:/msys64/mingw64/include/_mingw.h \
+  C:/msys64/mingw64/include/_mingw_mac.h \
+  C:/msys64/mingw64/include/_mingw_secapi.h \
+  C:/msys64/mingw64/include/vadefs.h \
+  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+  C:/msys64/mingw64/include/c++/12.2.0/cstdlib \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/mingw64/include/stdlib.h \
+  C:/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/msys64/mingw64/include/limits.h \
+  C:/msys64/mingw64/include/crtdefs.h \
+  C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/msys64/mingw64/include/malloc.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  C:/msys64/mingw64/include/errno.h \
+  C:/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_glfw.cpp \
   C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.h \
@@ -1722,13 +1693,15 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
   C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
 
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h:
+
 C:/msys64/mingw64/include/errno.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_double3_precision.hpp:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src/Window.cpp:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src/Window.cpp:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_double3_precision.hpp:
 
 C:/msys64/mingw64/include/c++/12.2.0/experimental/bits/string_view.tcc:
 
@@ -1740,11 +1713,11 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_int2_sized.hpp:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h:
-
 C:/msys64/mingw64/include/math.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/move.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h:
 
 C:/msys64/mingw64/include/psdk_inc/_wsadata.h:
 
@@ -1786,12 +1759,6 @@ C:/msys64/mingw64/include/stdint.h:
 
 C:/msys64/mingw64/include/_mingw.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/postprocess.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Shader.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h:
-
 C:/msys64/mingw64/include/_mingw_mac.h:
 
 C:/msys64/mingw64/include/windef.h:
@@ -1802,15 +1769,15 @@ C:/msys64/mingw64/include/c++/12.2.0/atomic:
 
 C:/msys64/mingw64/include/vadefs.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h:
-
 C:/msys64/mingw64/include/sdks/_mingw_ddk.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint4.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h:
 
@@ -1821,6 +1788,20 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h:
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glfw/include/GLFW/glfw3.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_bool2_precision.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+C:/msys64/mingw64/include/objidl.h:
+
+C:/msys64/mingw64/include/malloc.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat3x4.inl:
+
+C:/msys64/mingw64/include/c++/12.2.0/iostream:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Camera.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/glm.hpp:
 
@@ -1862,9 +1843,13 @@ C:/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h:
 
@@ -1878,31 +1863,19 @@ C:/msys64/mingw64/include/corecrt_wstdlib.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/tweakme.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double3x3.hpp:
+C:/msys64/mingw64/include/limits.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h:
 
-C:/msys64/mingw64/include/limits.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double3x3.hpp:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat2x2.inl:
 
 C:/msys64/mingw64/include/sec_api/stdlib_s.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_bool2_precision.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
-
-C:/msys64/mingw64/include/objidl.h:
-
-C:/msys64/mingw64/include/malloc.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat3x4.inl:
-
 C:/msys64/mingw64/include/unknwn.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/scalar_constants.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/cpp11.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/cassert:
 
@@ -1976,8 +1949,6 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint2_sized.hpp:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/light.h:
-
 C:/msys64/mingw64/include/tvout.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/scalar_uint_sized.hpp:
@@ -2018,23 +1989,21 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float2x3_precision.hpp:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h:
-
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_float3.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/material.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_float3_precision.hpp:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat3x2.hpp:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_double3.hpp:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_double3.hpp:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_int3.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_int3_sized.hpp:
 
@@ -2086,8 +2055,6 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/mat2x2.hpp:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h:
-
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat2x2.hpp:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/type_ptr.inl:
@@ -2095,6 +2062,8 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/fmt/bundled/core.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/matrix.hpp:
 
@@ -2109,8 +2078,6 @@ C:/msys64/mingw64/include/c++/12.2.0/cerrno:
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double2x3.hpp:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat2x3.hpp:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat2x3.inl:
 
@@ -2140,13 +2107,11 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/det
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h:
 
+C:/msys64/mingw64/include/swprintf.inl:
+
 C:/msys64/mingw64/include/ole2.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h:
-
-C:/msys64/mingw64/include/swprintf.inl:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float3x2.hpp:
 
@@ -2162,13 +2127,13 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/det
 
 C:/msys64/mingw64/include/_mingw_off_t.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/ios:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat3x3.inl:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat3x3.inl:
+C:/msys64/mingw64/include/c++/12.2.0/ios:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double3x3_precision.hpp:
 
@@ -2208,9 +2173,9 @@ C:/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double4x2.hpp:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h:
-
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat4x2.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat4x2.inl:
 
@@ -2219,8 +2184,6 @@ C:/msys64/mingw64/include/jobapi.h:
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double4x2_precision.hpp:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float4x2_precision.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/scene.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/mat4x3.hpp:
 
@@ -2242,8 +2205,6 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext
 
 C:/msys64/mingw64/include/c++/12.2.0/backward/binders.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Model.h:
-
 C:/msys64/mingw64/include/rpcnsip.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
@@ -2252,11 +2213,9 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/mat
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_double4x4.hpp:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/Importer.hpp:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat4x4.hpp:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_mat4x4.hpp:
 
 C:/msys64/mingw64/include/winioctl.h:
 
@@ -2266,21 +2225,19 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/unchecked.h:
-
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/func_matrix.inl:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/geometric.hpp:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/constants.inl:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h:
-
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/func_geometric.inl:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/func_common.inl:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/constants.inl:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/exponential.hpp:
 
@@ -2318,6 +2275,8 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/det
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/packing.hpp:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h:
+
 C:/msys64/mingw64/include/ktmtypes.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_half.hpp:
@@ -2330,27 +2289,221 @@ C:/msys64/mingw64/include/c++/12.2.0/ext/atomicity.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/func_integer.inl:
 
-C:/msys64/mingw64/include/c++/12.2.0/string:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/quaternion.hpp:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Render/Mesh.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h:
 
-C:/msys64/mingw64/include/rpcnsi.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_projection.hpp:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h:
+C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.tcc:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h:
+C:/msys64/mingw64/include/wchar.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/constants.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/scalar_constants.inl:
+
+C:/msys64/mingw64/include/threadpoollegacyapiset.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/quaternion.inl:
+
+C:/msys64/mingw64/include/mciapi.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_projection.inl:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_clip_space.hpp:
+
+C:/msys64/mingw64/include/c++/12.2.0/cwctype:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_clip_space.inl:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_transform.inl:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/matrix_transform.inl:
+
+C:/msys64/mingw64/include/c++/12.2.0/vector:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_opengl3_loader.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h:
+
+C:/msys64/mingw64/include/sys/timeb.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/utility.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/periodic_worker.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/debug/assertions.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/debug/debug.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/cwchar:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/cwchar:
+C:/msys64/mingw64/include/c++/12.2.0/bits/allocator.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/constants.hpp:
+C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
-C:/msys64/mingw64/include/wchar.h:
+C:/msys64/mingw64/include/pshpack8.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/new:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_bool1.hpp:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/exception.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/initializer_list:
+
+C:/msys64/mingw64/include/c++/12.2.0/bit:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h:
+
+C:/msys64/mingw64/include/winnls.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/log_msg_buffer.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/type_ptr.hpp:
+
+C:/msys64/mingw64/include/c++/12.2.0/istream:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_relational.inl:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_float.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_common.hpp:
+
+C:/msys64/mingw64/include/c++/12.2.0/clocale:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_geometric.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_geometric.inl:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_common.inl:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_float.hpp:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/this_thread_sleep.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_quat.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_relational.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_quat.inl:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_double.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_double_precision.hpp:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.h:
+
+C:/msys64/mingw64/include/wctype.h:
+
+C:/msys64/mingw64/include/fltwinerror.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_transform.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_transform.inl:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h:
+
+C:/msys64/mingw64/include/_timeval.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_float1.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h:
+
+C:/msys64/mingw64/include/dlgs.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_double1_precision.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_int1_sized.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint1.hpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint1_sized.hpp:
+
+C:/msys64/mingw64/include/winsvc.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/cstring:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/exception_ptr.h:
+
+C:/msys64/mingw64/include/string.h:
+
+C:/msys64/mingw64/include/interlockedapi.h:
+
+C:/msys64/mingw64/include/sec_api/string_s.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/circular_q.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/ostream:
+
+C:/msys64/mingw64/include/c++/12.2.0/iosfwd:
+
+C:/msys64/mingw64/include/rpcnsi.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h:
 
 C:/msys64/mingw64/include/corecrt_stdio_config.h:
 
@@ -2368,137 +2521,39 @@ C:/msys64/mingw64/include/sec_api/wchar_s.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/registry.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/allocator.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
-
-C:/msys64/mingw64/include/pshpack8.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/new:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_bool1.hpp:
-
-C:/msys64/mingw64/include/fileapi.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/exception.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_opengl3_loader.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/fstream:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h:
-
-C:/msys64/mingw64/include/sys/timeb.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/clocale:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_common.hpp:
-
-C:/msys64/mingw64/include/locale.h:
-
-C:/msys64/mingw64/include/stdio.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/camera.h:
-
-C:/msys64/mingw64/include/sec_api/stdio_s.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/atomic_base.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/iosfwd:
-
-C:/msys64/mingw64/include/c++/12.2.0/cctype:
-
-C:/msys64/mingw64/include/ctype.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/periodic_worker.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/debug/assertions.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h:
-
-C:/msys64/mingw64/include/winnls.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/utility.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/debug/debug.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/initializer_list:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/cstdio:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/charconv.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bit:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h:
-
-C:/msys64/mingw64/include/datetimeapi.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc:
-
-C:/msys64/mingw64/include/c++/12.2.0/istream:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_relational.inl:
-
 C:/msys64/mingw64/include/c++/12.2.0/exception:
-
-C:/msys64/mingw64/include/string.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/exception_ptr.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/typeinfo:
 
+C:/msys64/mingw64/include/processthreadsapi.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h:
+
 C:/msys64/mingw64/include/c++/12.2.0/bits/nested_exception.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h:
+C:/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h:
+C:/msys64/mingw64/include/locale.h:
+
+C:/msys64/mingw64/include/stdio.h:
+
+C:/msys64/mingw64/include/sec_api/stdio_s.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/atomic_base.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/cctype:
+
+C:/msys64/mingw64/include/ctype.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/ios_base.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
@@ -2522,35 +2577,27 @@ C:/msys64/mingw64/include/pthread_signal.h:
 
 C:/msys64/mingw64/include/time.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/aabb.h:
-
 C:/msys64/mingw64/include/sec_api/sys/timeb_s.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_transform.inl:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h:
-
-C:/msys64/mingw64/include/_timeval.h:
 
 C:/msys64/mingw64/include/pthread_unistd.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
-C:/msys64/mingw64/include/fltwinerror.h:
+C:/msys64/mingw64/include/c++/12.2.0/string:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_transform.hpp:
+C:/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.h:
+C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h:
 
-C:/msys64/mingw64/include/wctype.h:
+C:/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/quaternion.hpp:
+C:/msys64/mingw64/include/c++/12.2.0/cstdio:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h:
+C:/msys64/mingw64/include/c++/12.2.0/bits/charconv.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.tcc:
+C:/msys64/mingw64/include/datetimeapi.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_projection.hpp:
+C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc:
 
 C:/msys64/mingw64/include/c++/12.2.0/system_error:
 
@@ -2558,13 +2605,13 @@ C:/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h:
-
 C:/msys64/mingw64/include/c++/12.2.0/stdexcept:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h:
 
 C:/msys64/mingw64/include/guiddef.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/streambuf:
 
@@ -2572,213 +2619,31 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/streambuf.tcc:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_clip_space.inl:
-
-C:/msys64/mingw64/include/c++/12.2.0/cwctype:
+C:/msys64/mingw64/include/c++/12.2.0/ratio:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/ratio:
-
 C:/msys64/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/core.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/ostream:
+C:/msys64/mingw64/include/oaidl.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_common.inl:
+C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h:
+C:/msys64/mingw64/include/sysinfoapi.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/sstream:
+C:/msys64/mingw64/include/stdarg.h:
 
-C:/msys64/mingw64/include/windows.h:
+C:/msys64/mingw64/include/_mingw_stdarg.h:
 
-C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h:
-
-C:/msys64/mingw64/include/psdk_inc/_xmitfile.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/Camera.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/iostream:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/scalar_constants.inl:
-
-C:/msys64/mingw64/include/threadpoollegacyapiset.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/quaternion.inl:
-
-C:/msys64/mingw64/include/mciapi.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_projection.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_clip_space.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/matrix_transform.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/matrix_transform.inl:
-
-C:/msys64/mingw64/include/c++/12.2.0/vector:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/log_msg_buffer.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/stb_image.h:
-
-C:/msys64/mingw64/include/sal.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/types.h:
-
-C:/msys64/mingw64/include/interlockedapi.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h:
-
-C:/msys64/mingw64/include/sec_api/string_s.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/circular_q.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/defs.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/include/assimp/config.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/log_msg.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector2.h:
-
-C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector3.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/color4.h:
-
-C:/msys64/mingw64/include/winsmcrd.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix3x3.h:
-
-C:/msys64/mingw64/include/concurrencysal.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix4x4.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/quaternion.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/contrib/utf8cpp/source/utf8/checked.h:
-
-C:/msys64/mingw64/include/winsvc.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/cstring:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector2.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/vector3.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/color4.inl:
-
-C:/msys64/mingw64/include/propidl.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix3x3.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_glfw.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/algorithm:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/Compiler/poppack1.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/MathFunctions.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/matrix4x4.inl:
-
-C:/msys64/mingw64/include/c++/12.2.0/utility:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/quaternion.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/texture.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/Compiler/pushpack1.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/mesh.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/backtracer.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/material.inl:
-
-C:/msys64/mingw64/include/driverspecs.h:
-
-C:/msys64/mingw64/include/mmsystem.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/anim.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/assimp/include/assimp/metadata.h:
-
-C:/msys64/mingw64/include/wincon.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/map:
-
-C:/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/gtc/type_ptr.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_float.hpp:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_geometric.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_geometric.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_float.hpp:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/this_thread_sleep.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_quat.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_relational.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/detail/type_quat.inl:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_double.hpp:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/quaternion_double_precision.hpp:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_float1.hpp:
-
-C:/msys64/mingw64/include/dlgs.h:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_double1_precision.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_int1_sized.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint1.hpp:
-
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/glm/glm/ext/vector_uint1_sized.hpp:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h:
+C:/msys64/mingw64/include/c++/12.2.0/bits/std_function.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/spdlog.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h:
 
 C:/msys64/mingw64/include/servprov.h:
 
@@ -2786,25 +2651,27 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/incl
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/null_mutex.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h:
+C:/msys64/mingw64/include/c++/12.2.0/utility:
 
 C:/msys64/mingw64/include/c++/12.2.0/ctime:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h:
+
 C:/msys64/mingw64/include/c++/12.2.0/memory:
+
+C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/align.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h:
-
-C:/msys64/mingw64/include/oaidl.h:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h:
-
 C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h:
+
+C:/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h:
 
 C:/msys64/mingw64/include/wow64apiset.h:
 
@@ -2813,10 +2680,6 @@ C:/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/functional:
-
-C:/msys64/mingw64/include/c++/12.2.0/bits/std_function.h:
-
-C:/msys64/mingw64/include/_mingw_stdarg.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/fmt/fmt.h:
 
@@ -2842,17 +2705,29 @@ C:/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h:
 
 C:/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h:
 
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.h:
+C:/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h:
 
-C:/msys64/mingw64/include/sysinfoapi.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/log_msg.h:
 
-C:/msys64/mingw64/include/stdarg.h:
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/spdlog/include/spdlog/details/backtracer.h:
+
+C:/msys64/mingw64/include/propidl.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_glfw.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_opengl3.h:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/src/stb.cpp:
+
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/include/stb_image.h:
+
+C:/msys64/mingw64/include/sal.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/backends/imgui_impl_glfw.cpp:
 
 C:/msys64/mingw64/include/GL/gl.h:
+
+C:/msys64/mingw64/include/windows.h:
 
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imstb_textedit.h:
 
@@ -2861,6 +2736,12 @@ C:/msys64/mingw64/include/cderr.h:
 C:/msys64/mingw64/include/sdkddkver.h:
 
 C:/msys64/mingw64/include/specstrings.h:
+
+C:/msys64/mingw64/include/winsmcrd.h:
+
+C:/msys64/mingw64/include/concurrencysal.h:
+
+C:/msys64/mingw64/include/driverspecs.h:
 
 C:/msys64/mingw64/include/apiset.h:
 
@@ -2884,9 +2765,9 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h:
 
@@ -2898,9 +2779,9 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h:
 
@@ -2912,43 +2793,21 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h:
-
-C:/msys64/mingw64/include/processthreadsapi.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h:
 
@@ -2957,10 +2816,6 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h:
 
@@ -2987,6 +2842,8 @@ C:/msys64/mingw64/include/debugapi.h:
 C:/msys64/mingw64/include/errhandlingapi.h:
 
 C:/msys64/mingw64/include/fibersapi.h:
+
+C:/msys64/mingw64/include/fileapi.h:
 
 C:/msys64/mingw64/include/handleapi.h:
 
@@ -3030,6 +2887,8 @@ C:/msys64/mingw64/include/pshpack1.h:
 
 C:/msys64/mingw64/include/stringapiset.h:
 
+C:/msys64/mingw64/include/wincon.h:
+
 C:/msys64/mingw64/include/winver.h:
 
 C:/msys64/mingw64/include/winreg.h:
@@ -3047,6 +2906,8 @@ C:/msys64/mingw64/include/dde.h:
 C:/msys64/mingw64/include/ddeml.h:
 
 C:/msys64/mingw64/include/lzexpand.h:
+
+C:/msys64/mingw64/include/mmsystem.h:
 
 C:/msys64/mingw64/include/mmsyscom.h:
 
@@ -3083,6 +2944,10 @@ C:/msys64/mingw64/include/psdk_inc/_socket_types.h:
 C:/msys64/mingw64/include/psdk_inc/_fd_types.h:
 
 C:/msys64/mingw64/include/psdk_inc/_ip_mreq1.h:
+
+C:/msys64/mingw64/include/psdk_inc/_xmitfile.h:
+
+C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h:
 
 C:/msys64/mingw64/include/ncrypt.h:
 

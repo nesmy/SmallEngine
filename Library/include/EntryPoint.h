@@ -6,7 +6,7 @@ extern int Start()
     SmallInfo("Load Editor");
     
     Window window = Window(800, 600);
-
+    
     window.create();
 
     while (!glfwWindowShouldClose(window._Window))

@@ -449,6 +449,9 @@ GLFW_BUILD_TESTS:BOOL=OFF
 //Build support for Win32
 GLFW_BUILD_WIN32:BOOL=ON
 
+//Include internals in documentation
+GLFW_DOCUMENT_INTERNALS:BOOL=OFF
+
 //Generate installation target
 GLFW_INSTALL:BOOL=ON
 
@@ -658,6 +661,18 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 //Support wchar api
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
 
+//Path to a program.
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
+
+//Path to a program.
+Vulkan_GLSLC_EXECUTABLE:FILEPATH=Vulkan_GLSLC_EXECUTABLE-NOTFOUND
+
+//Path to a file.
+Vulkan_INCLUDE_DIR:PATH=Vulkan_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+Vulkan_LIBRARY:FILEPATH=Vulkan_LIBRARY-NOTFOUND
+
 //Dependencies for the target
 assimp_LIB_DEPENDS:STATIC=general;zlibstatic;general;-static-libgcc;general;-static-libstdc++;general;-Wl,-Bstatic;general;-lstdc++;general;-lwinpthread;
 
@@ -678,6 +693,15 @@ imgui_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 imgui_SOURCE_DIR:STATIC=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui
+
+//Value Computed by CMake
+imgui_example_glfw_vulkan_BINARY_DIR:STATIC=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/imgui
+
+//Value Computed by CMake
+imgui_example_glfw_vulkan_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+imgui_example_glfw_vulkan_SOURCE_DIR:STATIC=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui
 
 //Value Computed by CMake
 small_BINARY_DIR:STATIC=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib
@@ -981,6 +1005,14 @@ PC_GLUT_glut_VERSION:INTERNAL=
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE
+Vulkan_GLSLC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_INCLUDE_DIR
+Vulkan_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_LIBRARY
+Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //Have include xinput.h
 XINPUT_H_FOUND:INTERNAL=1
 //Have include unistd.h
