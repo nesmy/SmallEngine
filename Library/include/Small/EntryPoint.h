@@ -1,3 +1,4 @@
+#pragma once
 #include "Log.h"
 using namespace small;
 
