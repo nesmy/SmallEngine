@@ -39,7 +39,6 @@ target_link_directories(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
     glad
     ${OPENGL_LIBRARIES}
-    opengl32
     glfw
     spdlog
     imgui

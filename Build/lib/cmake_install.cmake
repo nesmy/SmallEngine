@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library
+# Install script for directory: /Users/nesmy/Playground/SmallEngine/Library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Editor")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,16 +34,16 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/cmake_install.cmake")
-  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/cmake_install.cmake")
-  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/cmake_install.cmake")
-  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/imgui/cmake_install.cmake")
-  include("C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glm/cmake_install.cmake")
+  include("/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/glad/cmake_install.cmake")
+  include("/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/glfw/cmake_install.cmake")
+  include("/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/spdlog/cmake_install.cmake")
+  include("/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/imgui/cmake_install.cmake")
+  include("/Users/nesmy/Playground/SmallEngine/Build/lib/vendor/glm/cmake_install.cmake")
 
 endif()
 
