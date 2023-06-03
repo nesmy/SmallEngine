@@ -20,7 +20,11 @@ namespace Small {
             return ss.str();
         }
 
-        EVENT_CLASS_TYPE(WindowResize)
+        //EVENT_CLASS_TYPE(WindowResize)
+        static EventType GetStaticType() { return EventType::WindowResize;}\
+            virtual EventType GetEventType() const override { return GetStaticType();}\
+            virtual const char* GetName() const override { return "WindowResize";}
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)
     private:
         unsigned int m_Width, m_Height;
     };
@@ -31,6 +35,7 @@ namespace Small {
         WindowCloseEvent() {}
 
         EVENT_CLASS_TYPE(WindowClose)
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)
     };
 
     class SMALL_API AppUpdateEvent : public Event
@@ -39,6 +44,8 @@ namespace Small {
         AppUpdateEvent() {}
 
         EVENT_CLASS_TYPE(AppUpdate)
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)
+
     };
 
     class SMALL_API AppRenderEvent : public Event
@@ -47,5 +54,7 @@ namespace Small {
         AppRenderEvent() {}
 
         EVENT_CLASS_TYPE(AppRender)
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)
+
     };
 }

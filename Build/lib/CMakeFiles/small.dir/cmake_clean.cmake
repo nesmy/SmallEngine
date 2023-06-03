@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/small.dir/src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.obj"
+  "CMakeFiles/small.dir/src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.obj.d"
+  "CMakeFiles/small.dir/src/Platform/WindowsWindow.cpp.obj"
+  "CMakeFiles/small.dir/src/Platform/WindowsWindow.cpp.obj.d"
   "CMakeFiles/small.dir/src/Small/Application.cpp.obj"
   "CMakeFiles/small.dir/src/Small/Application.cpp.obj.d"
+  "CMakeFiles/small.dir/src/Small/ImGui/ImGuiLayer.cpp.obj"
+  "CMakeFiles/small.dir/src/Small/ImGui/ImGuiLayer.cpp.obj.d"
   "CMakeFiles/small.dir/src/Small/Layer.cpp.obj"
   "CMakeFiles/small.dir/src/Small/Layer.cpp.obj.d"
   "CMakeFiles/small.dir/src/Small/LayerStack.cpp.obj"

@@ -175,6 +175,54 @@ small/fast:
 	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build
 .PHONY : small/fast
 
+src/Platform/OpenGL/ImGuiOpenGLRenderer.obj: src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.obj
+.PHONY : src/Platform/OpenGL/ImGuiOpenGLRenderer.obj
+
+# target to build an object file
+src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.obj
+.PHONY : src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.obj
+
+src/Platform/OpenGL/ImGuiOpenGLRenderer.i: src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i
+.PHONY : src/Platform/OpenGL/ImGuiOpenGLRenderer.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i
+.PHONY : src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.i
+
+src/Platform/OpenGL/ImGuiOpenGLRenderer.s: src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s
+.PHONY : src/Platform/OpenGL/ImGuiOpenGLRenderer.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s
+.PHONY : src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp.s
+
+src/Platform/WindowsWindow.obj: src/Platform/WindowsWindow.cpp.obj
+.PHONY : src/Platform/WindowsWindow.obj
+
+# target to build an object file
+src/Platform/WindowsWindow.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Platform/WindowsWindow.cpp.obj
+.PHONY : src/Platform/WindowsWindow.cpp.obj
+
+src/Platform/WindowsWindow.i: src/Platform/WindowsWindow.cpp.i
+.PHONY : src/Platform/WindowsWindow.i
+
+# target to preprocess a source file
+src/Platform/WindowsWindow.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Platform/WindowsWindow.cpp.i
+.PHONY : src/Platform/WindowsWindow.cpp.i
+
+src/Platform/WindowsWindow.s: src/Platform/WindowsWindow.cpp.s
+.PHONY : src/Platform/WindowsWindow.s
+
+# target to generate assembly for a file
+src/Platform/WindowsWindow.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Platform/WindowsWindow.cpp.s
+.PHONY : src/Platform/WindowsWindow.cpp.s
+
 src/Small/Application.obj: src/Small/Application.cpp.obj
 .PHONY : src/Small/Application.obj
 
@@ -198,6 +246,30 @@ src/Small/Application.s: src/Small/Application.cpp.s
 src/Small/Application.cpp.s:
 	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Application.cpp.s
 .PHONY : src/Small/Application.cpp.s
+
+src/Small/ImGui/ImGuiLayer.obj: src/Small/ImGui/ImGuiLayer.cpp.obj
+.PHONY : src/Small/ImGui/ImGuiLayer.obj
+
+# target to build an object file
+src/Small/ImGui/ImGuiLayer.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/ImGui/ImGuiLayer.cpp.obj
+.PHONY : src/Small/ImGui/ImGuiLayer.cpp.obj
+
+src/Small/ImGui/ImGuiLayer.i: src/Small/ImGui/ImGuiLayer.cpp.i
+.PHONY : src/Small/ImGui/ImGuiLayer.i
+
+# target to preprocess a source file
+src/Small/ImGui/ImGuiLayer.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/ImGui/ImGuiLayer.cpp.i
+.PHONY : src/Small/ImGui/ImGuiLayer.cpp.i
+
+src/Small/ImGui/ImGuiLayer.s: src/Small/ImGui/ImGuiLayer.cpp.s
+.PHONY : src/Small/ImGui/ImGuiLayer.s
+
+# target to generate assembly for a file
+src/Small/ImGui/ImGuiLayer.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/ImGui/ImGuiLayer.cpp.s
+.PHONY : src/Small/ImGui/ImGuiLayer.cpp.s
 
 src/Small/Layer.obj: src/Small/Layer.cpp.obj
 .PHONY : src/Small/Layer.obj
@@ -404,9 +476,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... small"
+	@echo "... src/Platform/OpenGL/ImGuiOpenGLRenderer.obj"
+	@echo "... src/Platform/OpenGL/ImGuiOpenGLRenderer.i"
+	@echo "... src/Platform/OpenGL/ImGuiOpenGLRenderer.s"
+	@echo "... src/Platform/WindowsWindow.obj"
+	@echo "... src/Platform/WindowsWindow.i"
+	@echo "... src/Platform/WindowsWindow.s"
 	@echo "... src/Small/Application.obj"
 	@echo "... src/Small/Application.i"
 	@echo "... src/Small/Application.s"
+	@echo "... src/Small/ImGui/ImGuiLayer.obj"
+	@echo "... src/Small/ImGui/ImGuiLayer.i"
+	@echo "... src/Small/ImGui/ImGuiLayer.s"
 	@echo "... src/Small/Layer.obj"
 	@echo "... src/Small/Layer.i"
 	@echo "... src/Small/Layer.s"

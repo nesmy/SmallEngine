@@ -10,7 +10,7 @@ namespace Small {
     static bool s_GLFWInitialized = false;
     static void GLFWErrorCallback(int error, const char* description)
     {
-        EB_CORE_ERROR("GLFW Error ({0}): {1}", error, description);
+        SE_CORE_ERROR("GLFW Error ({0}): {1}", error, description);
     }
 
     Window* Window::Create(const WindowProps& props)
@@ -34,13 +34,13 @@ namespace Small {
         m_Data.Width = props.Width;
         m_Data.Height = props.Height;
 
-        EB_CORE_INFO("Creating window {0} ({1}, {2})", props.Title, props.Width, props.Height);
+        SE_CORE_INFO("Creating window {0} ({1}, {2})", props.Title, props.Width, props.Height);
 
         if (!s_GLFWInitialized)
         {
             //TODO: glfwTerminate on system shutdown
             int success = glfwInit();
-            EB_CORE_ASSERT(success, "Could not initialize GLFW!");
+            SE_CORE_ASSERT(success, "Could not initialize GLFW!");
 
             s_GLFWInitialized = true;
         }
@@ -48,7 +48,7 @@ namespace Small {
         m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
         glfwMakeContextCurrent(m_Window);
         int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-        EB_CORE_ASSERT(status, "Failed to initialize Glad");
+        SE_CORE_ASSERT(status, "Failed to initialize Glad");
         glfwSetWindowUserPointer(m_Window, &m_Data);
         SetVSync(true);
 

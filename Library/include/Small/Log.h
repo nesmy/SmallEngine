@@ -22,7 +22,7 @@ namespace Small {
 //Core log macros
 #define SE_CORE_TRACE(...)      ::Small::Log::GetCoreLogger()->trace(__VA_ARGS__)
 #define SE_CORE_INFO(...)       ::Small::Log::GetCoreLogger()->info(__VA_ARGS__)
-#define SE_CORE_WARN(...)       ::Small::Log::GetCoreLogger()-warn(__VA_ARGS__)
+#define SE_CORE_WARN(...)       ::Small::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define SE_CORE_ERROR(...)      ::Small::Log::GetCoreLogger()->error(__VA_ARGS__)
 #define SE_CORE_FATAL(...)      ::Small::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 

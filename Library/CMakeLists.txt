@@ -5,7 +5,7 @@ project(small)
 
 set (HEADER_FILES
     include/pch.h)
-file(GLOB SOURCES src/*.cpp src/Small/*.cpp src/Platform/*.cpp ${HEADER_FILES} )
+file(GLOB SOURCES src/*.cpp src/Small/*.cpp src/Small/ImGui/*.cpp src/Platform/*.cpp src/Platform/OpenGl/*.cpp ${HEADER_FILES} )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 

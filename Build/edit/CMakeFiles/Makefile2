@@ -217,9 +217,9 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/cl
 
 # All Build rule for target.
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/all
-CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Editor"
@@ -227,7 +227,7 @@ CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Editor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles 0
 .PHONY : CMakeFiles/Editor.dir/rule
@@ -250,12 +250,12 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41 "Built target small"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target small"
 .PHONY : C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
 
 # Build rule for subdir invocation for target.
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles 0
 .PHONY : C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/rule
@@ -354,7 +354,7 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=50 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=53 "Built target update_mappings"
 .PHONY : C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -380,7 +380,7 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=42,43,44,45,46,47,48,49 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=45,46,47,48,49,50,51,52 "Built target spdlog"
 .PHONY : C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
