@@ -2,8 +2,8 @@
 
 #include "Event.h"
 
-namespace Excaliber {
-    class EXCALIBER_API KeyEvent : public Event
+namespace Small {
+    class SMALL_API KeyEvent : public Event
     {
         public:
             inline int GetKeyCode() const { return m_KeyCode;}
@@ -16,7 +16,7 @@ namespace Excaliber {
             int m_KeyCode;
     };
 
-    class EXCALIBER_API KeyPressedEvent : public KeyEvent
+    class SMALL_API KeyPressedEvent : public KeyEvent
     {
         public:
             KeyPressedEvent(int keycode, int repeatCount)
@@ -31,15 +31,15 @@ namespace Excaliber {
                 return ss.str();
             }
 
-            //EVENT_CLASS_TYPE(KeyPressed)
-            static EventType GetStaticType() { return EventType::KeyPressed;}\
+            EVENT_CLASS_TYPE(KeyPressed)
+            //static EventType GetStaticType() { return EventType::KeyPressed;}\
             virtual EventType GetEventType() const override { return GetStaticType();}\
             virtual const char* GetName() const override { return "KeyPressed";}
         private:
             int m_RepeatCount;
     };
 
-    class EXCALIBER_API KeyReleasedEvent : public KeyEvent
+    class SMALL_API KeyReleasedEvent : public KeyEvent
     {
         public:
             KeyReleasedEvent(int keycode)
@@ -52,8 +52,8 @@ namespace Excaliber {
                 return ss.str();
             }
 
-            //EVENT_CLASS_TYPE(KeyReleased)
-            static EventType GetStaticType() { return EventType::KeyReleased;}\
+            EVENT_CLASS_TYPE(KeyReleased)
+            //static EventType GetStaticType() { return EventType::KeyReleased;}\
             virtual EventType GetEventType() const override { return GetStaticType();}\
             virtual const char* GetName() const override { return "KeyReleased";}              
     };

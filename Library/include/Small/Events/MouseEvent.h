@@ -3,9 +3,9 @@
 #include "Event.h"
 
 
-namespace Excaliber {
+namespace Small {
 
-    class EXCALIBER_API MouseMovedEvent : public Event
+    class SMALL_API MouseMovedEvent : public Event
     {
         public:
             MouseMovedEvent(float x, float y)
@@ -21,8 +21,8 @@ namespace Excaliber {
                 return ss.str();
             }
 
-            //EVENT_CLASS_TYPE(MouseMoved)
-            static EventType GetStaticType() { return EventType::MouseMoved;}\
+            EVENT_CLASS_TYPE(MouseMoved)
+            //static EventType GetStaticType() { return EventType::MouseMoved;}\
             virtual EventType GetEventType() const override { return GetStaticType();}\
             virtual const char* GetName() const override { return "MouseMoved";}
             EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
@@ -31,7 +31,7 @@ namespace Excaliber {
             float m_MouseX, m_MouseY;
     };
 
-    class EXCALIBER_API MouseScrolledEvent : public Event
+    class SMALL_API MouseScrolledEvent : public Event
     {
         public:
             MouseScrolledEvent(float xOffset, float yOffset)
@@ -47,8 +47,8 @@ namespace Excaliber {
                 return ss.str();
             }
 
-            //EVENT_CLASS_TYPE(MouseScrolled)
-            static EventType GetStaticType() { return EventType::MouseMoved;}\
+            EVENT_CLASS_TYPE(MouseScrolled)
+            //static EventType GetStaticType() { return EventType::MouseMoved;}\
             virtual EventType GetEventType() const override { return GetStaticType();}\
             virtual const char* GetName() const override { return "MouseMoved";}
             EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
@@ -57,7 +57,7 @@ namespace Excaliber {
             float m_XOffset, m_YOffset;
     };
 
-    class EXCALIBER_API MouseButtonEvent : public Event
+    class SMALL_API MouseButtonEvent : public Event
     {
         public:
             inline int GetMouseButton() const { return m_Button;}
@@ -70,7 +70,7 @@ namespace Excaliber {
             int m_Button;
     };
 
-    class EXCALIBER_API MouseButtonPressedEvent : public MouseButtonEvent
+    class SMALL_API MouseButtonPressedEvent : public MouseButtonEvent
     {
         public:
             MouseButtonPressedEvent(int button)
@@ -83,13 +83,13 @@ namespace Excaliber {
                 return ss.str();
             }
 
-            //EVENT_CLASS_TYPE(MouseButtonPressed)
-            static EventType GetStaticType() { return EventType::MouseButtonPressed;}\
+            EVENT_CLASS_TYPE(MouseButtonPressed)
+            //static EventType GetStaticType() { return EventType::MouseButtonPressed;}\
             virtual EventType GetEventType() const override { return GetStaticType();}\
             virtual const char* GetName() const override { return "MouseButtonPressed";}
     };
 
-    class EXCALIBER_API MouseButtonReleasedEvent : public MouseButtonEvent
+    class SMALL_API MouseButtonReleasedEvent : public MouseButtonEvent
     {
         public:
             MouseButtonReleasedEvent(int button)
@@ -102,8 +102,8 @@ namespace Excaliber {
                 return ss.str();
             }
 
-            //EVENT_CLASS_TYPE(MouseButtonReleased)
-            static EventType GetStaticType() { return EventType::MouseButtonReleased;}\
+            EVENT_CLASS_TYPE(MouseButtonReleased)
+            //static EventType GetStaticType() { return EventType::MouseButtonReleased;}\
             virtual EventType GetEventType() const override { return GetStaticType();}\
             virtual const char* GetName() const override { return "MouseButtonReleased";}
     };
