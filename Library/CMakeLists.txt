@@ -9,6 +9,8 @@ file(GLOB SOURCES src/*.cpp src/Small/*.cpp src/Small/ImGui/*.cpp src/Platform/*
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
+target_precompile_headers(${PROJECT_NAME} PRIVATE ${HEADER_FILES})
+
 add_compile_definitions(UNICODE)
 
 add_subdirectory(vendor/glad)
@@ -25,7 +27,6 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC vendor/glad/src
     PUBLIC vendor/glfw/include
     PUBLIC vendor/spdlog/include
-    PUBLIC vendor/spdlog/src
     PUBLIC vendor/imgui
     PUBLIC vendor/glm/glm
     PUBLIC vendor/assimp/include)
@@ -33,14 +34,12 @@ target_include_directories(${PROJECT_NAME}
 target_link_directories(${PROJECT_NAME}
     PUBLIC vendor/glad/src
     PUBLIC vendor/glfw/src
-    PUBLIC vendor/spdlog/src
     PUBLIC vendor/imgui)
 
 target_link_libraries(${PROJECT_NAME}
     glad
     ${OPENGL_LIBRARIES}
     glfw
-    spdlog
     imgui
     glm
     #assimp
