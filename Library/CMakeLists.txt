@@ -5,7 +5,7 @@ project(small)
 
 set (HEADER_FILES
     include/pch.h)
-file(GLOB SOURCES src/*.cpp src/Small/*.cpp ${HEADER_FILES} )
+file(GLOB SOURCES src/*.cpp src/Small/*.cpp src/Platform/*.cpp ${HEADER_FILES} )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
@@ -16,7 +16,7 @@ add_subdirectory(vendor/glfw)
 add_subdirectory(vendor/spdlog)
 add_subdirectory(vendor/imgui)
 add_subdirectory(vendor/glm)
-add_subdirectory(vendor/assimp)
+#add_subdirectory(vendor/assimp)
 
 
 target_include_directories(${PROJECT_NAME}
@@ -44,4 +44,5 @@ target_link_libraries(${PROJECT_NAME}
     spdlog
     imgui
     glm
-    assimp)
+    #assimp
+    )

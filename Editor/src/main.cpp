@@ -1,11 +1,41 @@
 #include "Small.h"
-#include <iostream>
-using namespace small;
 
-int main()
+class ExampleLayer : public Small::Layer
 {
+public:
+    ExampleLayer()
+        : Layer("Example")
+    {
 
-    Start();
+    }
 
-    return 0;
+    void OnUpdate() override
+    {
+        SE_INFO("ExampleLayer::Update");
+    }
+
+    void OnEvent(Small::Event& event) override
+    {
+        SE_TRACE("{0}", event);
+    }
+};
+
+class SandBox : public Small::Application
+{
+public:
+    SandBox()
+    {
+        PushLayer(new ExampleLayer());
+        PushOverlay(new Small::ImGuiLayer());
+    }
+
+    ~SandBox()
+    {
+
+    }
+};
+
+Small::Application* Small::CreateApplication()
+{
+    return new SandBox();
 }

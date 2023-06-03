@@ -84,26 +84,11 @@ CMakeFiles/Editor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/src/main.cpp.s"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Editor/src/main.cpp -o CMakeFiles/Editor.dir/src/main.cpp.s
 
-CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj: CMakeFiles/Editor.dir/flags.make
-CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj: CMakeFiles/Editor.dir/includes_CXX.rsp
-CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp
-CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj: CMakeFiles/Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj -MF CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj.d -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj -c C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp
-
-CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp > CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-
-CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj: CMakeFiles/Editor.dir/flags.make
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj: CMakeFiles/Editor.dir/includes_CXX.rsp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj: CMakeFiles/Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj -MF CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj.d -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj -c C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp
 
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.i: cmake_force
@@ -118,7 +103,7 @@ CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Libr
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj: CMakeFiles/Editor.dir/includes_CXX.rsp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj: CMakeFiles/Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj -MF CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj.d -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj -c C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp
 
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.i: cmake_force
@@ -133,7 +118,7 @@ CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Libr
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj: CMakeFiles/Editor.dir/includes_CXX.rsp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj: CMakeFiles/Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj -MF CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj.d -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj -c C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp
 
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.i: cmake_force
@@ -148,7 +133,7 @@ CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Libr
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj: CMakeFiles/Editor.dir/includes_CXX.rsp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj: CMakeFiles/Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj -MF CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj.d -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj -c C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp
 
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.i: cmake_force
@@ -163,7 +148,7 @@ CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Libr
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj: CMakeFiles/Editor.dir/includes_CXX.rsp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj: CMakeFiles/Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj -MF CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj.d -o CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj -c C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp
 
 CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.i: cmake_force
@@ -177,7 +162,6 @@ CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Libr
 # Object files for target Editor
 Editor_OBJECTS = \
 "CMakeFiles/Editor.dir/src/main.cpp.obj" \
-"CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj" \
 "CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj" \
 "CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj" \
 "CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj" \
@@ -188,22 +172,19 @@ Editor_OBJECTS = \
 Editor_EXTERNAL_OBJECTS =
 
 Editor.exe: CMakeFiles/Editor.dir/src/main.cpp.obj
-Editor.exe: CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
 Editor.exe: CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj
 Editor.exe: CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_demo.cpp.obj
 Editor.exe: CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_draw.cpp.obj
 Editor.exe: CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_tables.cpp.obj
 Editor.exe: CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.obj
 Editor.exe: CMakeFiles/Editor.dir/build.make
-Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/libsmall.a
+Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/libsmall.dll.a
 Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/libglad.a
 Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/libglfw3.a
 Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/libspdlog.a
-Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/lib/libassimp.a
-Editor.exe: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/libzlibstatic.a
 Editor.exe: CMakeFiles/Editor.dir/linkLibs.rsp
 Editor.exe: CMakeFiles/Editor.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Editor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Editor.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Editor.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/Editor.dir/objects.a @CMakeFiles/Editor.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/Editor.dir/objects.a -Wl,--no-whole-archive -o Editor.exe -Wl,--out-implib,libEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Editor.dir/linkLibs.rsp

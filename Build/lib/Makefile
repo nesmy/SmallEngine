@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"assimp-dev\" \"libassimp5.2.5-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -175,101 +175,101 @@ small/fast:
 	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build
 .PHONY : small/fast
 
-src/Window.obj: src/Window.cpp.obj
-.PHONY : src/Window.obj
+src/Small/Application.obj: src/Small/Application.cpp.obj
+.PHONY : src/Small/Application.obj
 
 # target to build an object file
-src/Window.cpp.obj:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Window.cpp.obj
-.PHONY : src/Window.cpp.obj
+src/Small/Application.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Application.cpp.obj
+.PHONY : src/Small/Application.cpp.obj
 
-src/Window.i: src/Window.cpp.i
-.PHONY : src/Window.i
+src/Small/Application.i: src/Small/Application.cpp.i
+.PHONY : src/Small/Application.i
 
 # target to preprocess a source file
-src/Window.cpp.i:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Window.cpp.i
-.PHONY : src/Window.cpp.i
+src/Small/Application.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Application.cpp.i
+.PHONY : src/Small/Application.cpp.i
 
-src/Window.s: src/Window.cpp.s
-.PHONY : src/Window.s
+src/Small/Application.s: src/Small/Application.cpp.s
+.PHONY : src/Small/Application.s
 
 # target to generate assembly for a file
-src/Window.cpp.s:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Window.cpp.s
-.PHONY : src/Window.cpp.s
+src/Small/Application.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Application.cpp.s
+.PHONY : src/Small/Application.cpp.s
 
-src/stb.obj: src/stb.cpp.obj
-.PHONY : src/stb.obj
+src/Small/Layer.obj: src/Small/Layer.cpp.obj
+.PHONY : src/Small/Layer.obj
 
 # target to build an object file
-src/stb.cpp.obj:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/stb.cpp.obj
-.PHONY : src/stb.cpp.obj
+src/Small/Layer.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Layer.cpp.obj
+.PHONY : src/Small/Layer.cpp.obj
 
-src/stb.i: src/stb.cpp.i
-.PHONY : src/stb.i
+src/Small/Layer.i: src/Small/Layer.cpp.i
+.PHONY : src/Small/Layer.i
 
 # target to preprocess a source file
-src/stb.cpp.i:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/stb.cpp.i
-.PHONY : src/stb.cpp.i
+src/Small/Layer.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Layer.cpp.i
+.PHONY : src/Small/Layer.cpp.i
 
-src/stb.s: src/stb.cpp.s
-.PHONY : src/stb.s
+src/Small/Layer.s: src/Small/Layer.cpp.s
+.PHONY : src/Small/Layer.s
 
 # target to generate assembly for a file
-src/stb.cpp.s:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/stb.cpp.s
-.PHONY : src/stb.cpp.s
+src/Small/Layer.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Layer.cpp.s
+.PHONY : src/Small/Layer.cpp.s
 
-vendor/imgui/backends/imgui_impl_glfw.obj: vendor/imgui/backends/imgui_impl_glfw.cpp.obj
-.PHONY : vendor/imgui/backends/imgui_impl_glfw.obj
+src/Small/LayerStack.obj: src/Small/LayerStack.cpp.obj
+.PHONY : src/Small/LayerStack.obj
 
 # target to build an object file
-vendor/imgui/backends/imgui_impl_glfw.cpp.obj:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.obj
-.PHONY : vendor/imgui/backends/imgui_impl_glfw.cpp.obj
+src/Small/LayerStack.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/LayerStack.cpp.obj
+.PHONY : src/Small/LayerStack.cpp.obj
 
-vendor/imgui/backends/imgui_impl_glfw.i: vendor/imgui/backends/imgui_impl_glfw.cpp.i
-.PHONY : vendor/imgui/backends/imgui_impl_glfw.i
+src/Small/LayerStack.i: src/Small/LayerStack.cpp.i
+.PHONY : src/Small/LayerStack.i
 
 # target to preprocess a source file
-vendor/imgui/backends/imgui_impl_glfw.cpp.i:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i
-.PHONY : vendor/imgui/backends/imgui_impl_glfw.cpp.i
+src/Small/LayerStack.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/LayerStack.cpp.i
+.PHONY : src/Small/LayerStack.cpp.i
 
-vendor/imgui/backends/imgui_impl_glfw.s: vendor/imgui/backends/imgui_impl_glfw.cpp.s
-.PHONY : vendor/imgui/backends/imgui_impl_glfw.s
+src/Small/LayerStack.s: src/Small/LayerStack.cpp.s
+.PHONY : src/Small/LayerStack.s
 
 # target to generate assembly for a file
-vendor/imgui/backends/imgui_impl_glfw.cpp.s:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s
-.PHONY : vendor/imgui/backends/imgui_impl_glfw.cpp.s
+src/Small/LayerStack.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/LayerStack.cpp.s
+.PHONY : src/Small/LayerStack.cpp.s
 
-vendor/imgui/backends/imgui_impl_opengl3.obj: vendor/imgui/backends/imgui_impl_opengl3.cpp.obj
-.PHONY : vendor/imgui/backends/imgui_impl_opengl3.obj
+src/Small/Log.obj: src/Small/Log.cpp.obj
+.PHONY : src/Small/Log.obj
 
 # target to build an object file
-vendor/imgui/backends/imgui_impl_opengl3.cpp.obj:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.obj
-.PHONY : vendor/imgui/backends/imgui_impl_opengl3.cpp.obj
+src/Small/Log.cpp.obj:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Log.cpp.obj
+.PHONY : src/Small/Log.cpp.obj
 
-vendor/imgui/backends/imgui_impl_opengl3.i: vendor/imgui/backends/imgui_impl_opengl3.cpp.i
-.PHONY : vendor/imgui/backends/imgui_impl_opengl3.i
+src/Small/Log.i: src/Small/Log.cpp.i
+.PHONY : src/Small/Log.i
 
 # target to preprocess a source file
-vendor/imgui/backends/imgui_impl_opengl3.cpp.i:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i
-.PHONY : vendor/imgui/backends/imgui_impl_opengl3.cpp.i
+src/Small/Log.cpp.i:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Log.cpp.i
+.PHONY : src/Small/Log.cpp.i
 
-vendor/imgui/backends/imgui_impl_opengl3.s: vendor/imgui/backends/imgui_impl_opengl3.cpp.s
-.PHONY : vendor/imgui/backends/imgui_impl_opengl3.s
+src/Small/Log.s: src/Small/Log.cpp.s
+.PHONY : src/Small/Log.s
 
 # target to generate assembly for a file
-vendor/imgui/backends/imgui_impl_opengl3.cpp.s:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s
-.PHONY : vendor/imgui/backends/imgui_impl_opengl3.cpp.s
+src/Small/Log.cpp.s:
+	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/src/Small/Log.cpp.s
+.PHONY : src/Small/Log.cpp.s
 
 vendor/imgui/imgui.obj: vendor/imgui/imgui.cpp.obj
 .PHONY : vendor/imgui/imgui.obj
@@ -391,30 +391,6 @@ vendor/imgui/imgui_widgets.cpp.s:
 	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/imgui_widgets.cpp.s
 .PHONY : vendor/imgui/imgui_widgets.cpp.s
 
-vendor/imgui/misc/cpp/imgui_stdlib.obj: vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
-.PHONY : vendor/imgui/misc/cpp/imgui_stdlib.obj
-
-# target to build an object file
-vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
-.PHONY : vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
-
-vendor/imgui/misc/cpp/imgui_stdlib.i: vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-.PHONY : vendor/imgui/misc/cpp/imgui_stdlib.i
-
-# target to preprocess a source file
-vendor/imgui/misc/cpp/imgui_stdlib.cpp.i:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-.PHONY : vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-
-vendor/imgui/misc/cpp/imgui_stdlib.s: vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-.PHONY : vendor/imgui/misc/cpp/imgui_stdlib.s
-
-# target to generate assembly for a file
-vendor/imgui/misc/cpp/imgui_stdlib.cpp.s:
-	cd C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit && $(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-.PHONY : vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,18 +404,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... small"
-	@echo "... src/Window.obj"
-	@echo "... src/Window.i"
-	@echo "... src/Window.s"
-	@echo "... src/stb.obj"
-	@echo "... src/stb.i"
-	@echo "... src/stb.s"
-	@echo "... vendor/imgui/backends/imgui_impl_glfw.obj"
-	@echo "... vendor/imgui/backends/imgui_impl_glfw.i"
-	@echo "... vendor/imgui/backends/imgui_impl_glfw.s"
-	@echo "... vendor/imgui/backends/imgui_impl_opengl3.obj"
-	@echo "... vendor/imgui/backends/imgui_impl_opengl3.i"
-	@echo "... vendor/imgui/backends/imgui_impl_opengl3.s"
+	@echo "... src/Small/Application.obj"
+	@echo "... src/Small/Application.i"
+	@echo "... src/Small/Application.s"
+	@echo "... src/Small/Layer.obj"
+	@echo "... src/Small/Layer.i"
+	@echo "... src/Small/Layer.s"
+	@echo "... src/Small/LayerStack.obj"
+	@echo "... src/Small/LayerStack.i"
+	@echo "... src/Small/LayerStack.s"
+	@echo "... src/Small/Log.obj"
+	@echo "... src/Small/Log.i"
+	@echo "... src/Small/Log.s"
 	@echo "... vendor/imgui/imgui.obj"
 	@echo "... vendor/imgui/imgui.i"
 	@echo "... vendor/imgui/imgui.s"
@@ -455,9 +431,6 @@ help:
 	@echo "... vendor/imgui/imgui_widgets.obj"
 	@echo "... vendor/imgui/imgui_widgets.i"
 	@echo "... vendor/imgui/imgui_widgets.s"
-	@echo "... vendor/imgui/misc/cpp/imgui_stdlib.obj"
-	@echo "... vendor/imgui/misc/cpp/imgui_stdlib.i"
-	@echo "... vendor/imgui/misc/cpp/imgui_stdlib.s"
 .PHONY : help
 
 

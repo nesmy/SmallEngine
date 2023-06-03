@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"assimp-dev\" \"libassimp5.2.5-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -252,45 +252,6 @@ spdlog/fast:
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/build
 .PHONY : spdlog/fast
 
-#=============================================================================
-# Target rules for targets named zlibstatic
-
-# Build rule for target.
-zlibstatic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zlibstatic
-.PHONY : zlibstatic
-
-# fast build rule for target.
-zlibstatic/fast:
-	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir/build
-.PHONY : zlibstatic/fast
-
-#=============================================================================
-# Target rules for targets named assimp
-
-# Build rule for target.
-assimp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assimp
-.PHONY : assimp
-
-# fast build rule for target.
-assimp/fast:
-	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/code/CMakeFiles/assimp.dir/build
-.PHONY : assimp/fast
-
-#=============================================================================
-# Target rules for targets named unit
-
-# Build rule for target.
-unit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit
-.PHONY : unit
-
-# fast build rule for target.
-unit/fast:
-	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/assimp/test/CMakeFiles/unit.dir/build
-.PHONY : unit/fast
-
 C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.obj: C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.cpp.obj
 .PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.obj
 
@@ -411,30 +372,6 @@ C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.s
 .PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.cpp.s
 
-C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.obj: C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
-.PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.obj
-
-# target to build an object file
-C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
-.PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.obj
-
-C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.i: C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-.PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.i
-
-# target to preprocess a source file
-C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-.PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
-
-C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.s: C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-.PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.s
-
-# target to generate assembly for a file
-C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-.PHONY : C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -474,13 +411,10 @@ help:
 	@echo "... uninstall"
 	@echo "... update_mappings"
 	@echo "... Editor"
-	@echo "... assimp"
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... small"
 	@echo "... spdlog"
-	@echo "... unit"
-	@echo "... zlibstatic"
 	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.obj"
 	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.i"
 	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui.s"
@@ -496,9 +430,6 @@ help:
 	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.obj"
 	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.i"
 	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/imgui_widgets.s"
-	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.obj"
-	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.i"
-	@echo "... C_/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library/vendor/imgui/misc/cpp/imgui_stdlib.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
