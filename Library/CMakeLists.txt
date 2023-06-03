@@ -3,9 +3,11 @@ set (CMAKE_CXX_STANDARD 14)
 
 project(small)
 
-file(GLOB SOURCES src/*.cpp vendor/imgui/backends/imgui_impl_glfw.cpp vendor/imgui/backends/imgui_impl_opengl3.cpp)
+set (HEADER_FILES
+    include/pch.h)
+file(GLOB SOURCES src/*.cpp src/Small/*.cpp ${HEADER_FILES} )
 
-add_library(${PROJECT_NAME} ${SOURCES})
+add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
 add_compile_definitions(UNICODE)
 
@@ -25,7 +27,6 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC vendor/spdlog/include
     PUBLIC vendor/spdlog/src
     PUBLIC vendor/imgui
-    PUBLIC vendor/imgui/backends
     PUBLIC vendor/glm/glm
     PUBLIC vendor/assimp/include)
 
@@ -33,8 +34,7 @@ target_link_directories(${PROJECT_NAME}
     PUBLIC vendor/glad/src
     PUBLIC vendor/glfw/src
     PUBLIC vendor/spdlog/src
-    PUBLIC vendor/imgui
-    PUBLIC vendor/imgui/backends)
+    PUBLIC vendor/imgui)
 
 target_link_libraries(${PROJECT_NAME}
     glad
@@ -42,7 +42,6 @@ target_link_libraries(${PROJECT_NAME}
     opengl32
     glfw
     spdlog
-    imgui-stdlib
     imgui
     glm
     assimp)

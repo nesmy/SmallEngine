@@ -1,4 +1,4 @@
-#include "small.h"
+#include "Small.h"
 #include <iostream>
 using namespace small;
 

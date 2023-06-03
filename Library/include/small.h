@@ -2,10 +2,13 @@
 
 //
 #include <stdio.h>
+#include "Small/Application.h"
+#include "Small/Layer.h"
 #include "Small/Log.h"
-#include "Window.h"
-#include "imgui.h"
+
+#include "Small/ImGui/ImGuiLayer.h"
 
 
-
+//
 #include "Small/EntryPoint.h"
+//

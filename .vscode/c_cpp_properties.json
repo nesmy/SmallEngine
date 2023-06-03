@@ -12,7 +12,8 @@
                 "${workspaceFolder}/Library/vendor/glfw/include",
                 "${workspaceFolder}/Library/vendor/glm",
                 "${workspaceFolder}/Library/vendor/assimp/include",
-                "${workspaceFolder}/Build/lib/vendor/assimp/include"
+                "${workspaceFolder}/Build/lib/vendor/assimp/include",
+                "${workspaceFolder}/Library/include"
             ],
             "defines": [
                 "_DEBUG",

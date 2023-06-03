@@ -1,40 +1,29 @@
 #pragma once
-#include "Log.h"
-using namespace small;
 
-extern int Start()
+#ifdef SE_PLATFORM_WINDOWS
+
+extern Small::Application* Small::CreateApplication();
+
+int main(int argc, char** argv)
 {
-    SmallInfo("Load Editor");
-    
-    Window window = Window(800, 600);
-    
-    window.create();
-
-    while (!glfwWindowShouldClose(window._Window))
-    {
-        SmallInfo("1");
-        // Process events
-        glfwPollEvents();
-
-        SmallInfo("2");
-        // Start ImGui frame
-        SmallInfo("IMGUI");
-        glfwPollEvents();
-       // Create a window called "My First Tool", with a menu bar.
-        glClearColor(0.45f, 0.55f, 0.60f, 1.00f);
-        glClear(GL_COLOR_BUFFER_BIT);
-
-        window.render();
-        
-
-        SmallInfo("3");
-        //swap buffers
-        glfwSwapBuffers(window._Window);
-    }
-
-    //clean up and exit
-    glfwTerminate();
-
-    SmallInfo("end prog");
-    return 0;
+    Small::Log::Init();
+    SE_CORE_WARN("Log Init");
+    SE_INFO("Client Log");
+    auto app = Small::CreateApplication();
+    app->Run();
+    delete app;
 }
+
+#else
+extern Small::Application* Small::CreateApplication();
+
+int main(int argc, char** argv)
+{
+    Small::Log::Init();
+    SE_CORE_WARN("Log Init");
+    SE_INFO("Client Log");
+    auto app = Small::CreateApplication();
+    app->Run();
+    delete app;
+}
+#endif
