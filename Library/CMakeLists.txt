@@ -20,6 +20,12 @@ add_subdirectory(vendor/imgui)
 add_subdirectory(vendor/glm)
 #add_subdirectory(vendor/assimp)
 
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD 
+  COMMAND "${CMAKE_COMMAND}" -E copy 
+     "$<TARGET_FILE:small>"
+     "../edit/$<TARGET_FILE_NAME:small>" 
+  COMMENT "Copying to output directory")
+
 
 target_include_directories(${PROJECT_NAME}
     PUBLIC include

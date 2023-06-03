@@ -22,12 +22,17 @@ namespace Small {
 
     void ImGuiLayer::OnAttach()
     {
+        IMGUI_CHECKVERSION();
         ImGui::CreateContext();
         ImGui::StyleColorsDark();
 
         ImGuiIO& io = ImGui::GetIO();
         io.BackendFlags |= ImGuiBackendFlags_HasMouseCursors;
         io.BackendFlags |= ImGuiBackendFlags_HasSetMousePos;
+        io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // Enable Keyboard Controls
+        io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
+        io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;         // Enable Docking
+        io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;       // Enable Multi-Viewport / Platform Windows
 
         // TEMPORARY: Should use our key code
         //io.KeyMap[ImGuiKey_Tab] = GLFW_KEY_TAB;
@@ -50,6 +55,7 @@ namespace Small {
         //io.KeyMap[ImGuiKey_X] = GLFW_KEY_X;
         //io.KeyMap[ImGuiKey_Y] = GLFW_KEY_Y;
         //io.KeyMap[ImGuiKey_Z] = GLFW_KEY_Z;
+        
 
         ImGui_ImplOpenGL3_Init("#version 410");
     }
