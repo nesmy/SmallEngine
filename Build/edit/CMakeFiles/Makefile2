@@ -216,10 +216,10 @@ C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/cl
 # Target rules for target CMakeFiles/Editor.dir
 
 # All Build rule for target.
-CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/all
-CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
-CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
 CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all
+CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/all
+CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/Editor.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Editor.dir/build.make CMakeFiles/Editor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Editor"
@@ -246,8 +246,8 @@ CMakeFiles/Editor.dir/clean:
 
 # All Build rule for target.
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glad/CMakeFiles/glad.dir/all
-C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/glfw/src/CMakeFiles/glfw.dir/all
+C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/all: C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/vendor/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/depend
 	$(MAKE) $(MAKESILENT) -f C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build.make C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/lib/CMakeFiles/small.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Build/edit/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target small"

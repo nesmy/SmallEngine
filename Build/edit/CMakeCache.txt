@@ -562,7 +562,7 @@ small_BINARY_DIR:STATIC=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Bu
 small_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-small_LIB_DEPENDS:STATIC=general;glad;general;opengl32;general;glfw;general;spdlog;
+small_LIB_DEPENDS:STATIC=general;glad;general;glfw;general;spdlog;
 
 //Value Computed by CMake
 small_SOURCE_DIR:STATIC=C:/Users/pnesm/OneDrive/Bureau/Playground/SmallEngine/Library
