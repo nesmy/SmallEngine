@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 set (CMAKE_CXX_STANDARD 14)
 
-project(small)
+project(SmallEngine)
 
 set (HEADER_FILES
     include/pch.h)
@@ -22,8 +22,8 @@ add_subdirectory(vendor/glm)
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD 
   COMMAND "${CMAKE_COMMAND}" -E copy 
-     "$<TARGET_FILE:small>"
-     "../edit/$<TARGET_FILE_NAME:small>" 
+     "$<TARGET_FILE:SmallEngine>"
+     "../$<TARGET_FILE_NAME:SmallEngine>" 
   COMMENT "Copying to output directory")
 
 
