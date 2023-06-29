@@ -6,3 +6,9 @@ void start()
     SE_CORE_WARN("Log Init");
     SE_INFO("Client Log");
 }
+
+
+void test()
+{
+    Small::Window window;
+}
