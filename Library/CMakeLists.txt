@@ -5,7 +5,7 @@ project(SmallEngine)
 
 set (HEADER_FILES
     include/pch.h)
-file(GLOB SOURCES src/*.cpp ${HEADER_FILES} )
+file(GLOB SOURCES src/*.cpp vendor/imgui/backends/imgui_impl_opengl3.cpp vendor/imgui/backends/imgui_impl_glfw.cpp ${HEADER_FILES} )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
