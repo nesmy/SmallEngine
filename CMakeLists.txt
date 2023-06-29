@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(SmallEditor)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} Editor/src/main.cpp)
 
 add_subdirectory(Library)
 
