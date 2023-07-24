@@ -1,2 +1,2 @@
-cd ../Build/edit
+cd ../Build
 ./SmallEditor

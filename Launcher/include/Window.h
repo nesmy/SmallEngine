@@ -1,16 +1,16 @@
 #pragma once
 
 #include "pch.h"
+#include "Log.h"
 
 #include "imgui.h"
 #include "backends/imgui_impl_glfw.h"
 #include "backends/imgui_impl_opengl3.h"
-#include "Shader.h"
 
 #include "glad/glad.h"
 #include <GLFW/glfw3.h>
 
-namespace Small {
+namespace Launcher {
 
     struct WindowProps
     {
@@ -18,7 +18,7 @@ namespace Small {
         unsigned int Width;
         unsigned int Height;
 
-        WindowProps(const std::string& title = "Small Engine",
+        WindowProps(const std::string& title = "Small Launcher",
                     unsigned int width = 1280,
                     unsigned int height = 720)
             : Title(title), Width(width), Height(height)
