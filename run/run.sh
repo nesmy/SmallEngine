@@ -1,2 +1,2 @@
 cd ../Build/edit
-./Editor
+./SmallEditor

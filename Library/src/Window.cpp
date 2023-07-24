@@ -204,6 +204,7 @@ namespace Small {
 
         if(show_triangle)
         {
+            SE_CORE_TRACE("SHOW");
                 // render the triangle
         ourShader.use();
         glBindVertexArray(VAO);
